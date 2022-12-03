@@ -1,0 +1,61 @@
+﻿<Page x:Class="WeaderConsole.View.mainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WeaderConsole.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="1200" d:DesignWidth="1200"
+      Title="mainPage">
+
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="800"/>
+                <RowDefinition Height="200"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Width="1200">
+                <ListBox x:Name="wetherSelected"
+                 Height="100"
+                 Width="1200" 
+                         ScrollViewer.VerticalScrollBarVisibility="Disabled"
+                        ScrollViewer.HorizontalScrollBarVisibility="Disabled" >
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <VirtualizingStackPanel IsItemsHost="True"
+                                           Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                    <ListBoxItem Height="100" Width="100">오늘</ListBoxItem>
+                    <ListBoxItem Height="100" Width="100">내일</ListBoxItem>
+                    <ListBoxItem Height="100" Width="100">모레</ListBoxItem>
+                    <ListBoxItem Height="100" Width="100">글피</ListBoxItem>
+                    <ListBoxItem Height="100" Width="100">중기</ListBoxItem>
+                </ListBox>
+            </Grid>
+
+
+
+            <Grid Grid.Row="1">
+                <ListView x:Name="wetherList"
+                         FontSize="16"
+                         FontWeight="SemiBold"
+                         BorderBrush="Transparent"
+                        ScrollViewer.VerticalScrollBarVisibility="Disabled"
+                        ScrollViewer.HorizontalScrollBarVisibility="Disabled" Grid.ColumnSpan="1" Height="800" RenderTransformOrigin="0.706,0.473" d:ItemsSource="{d:SampleData ItemCount=5}"
+                        >
+                    <ListViewItem>
+                        <DataTemplate>
+                            <StackPanel Width="200" Height="300" Margin="30,5,0,0">
+                                <Image Source="{Binding imagePath}"/>
+                                <TextBlock Text="{Binding name}" HorizontalAlignment="Center" Margin="0,0,0,0"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListViewItem>
+                </ListView>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

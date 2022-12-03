@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UoQgEJLmvysCwwJjLfhdsFVL+Aq8JZURQhQtHCnhpS2CKgid2haxeA9ayxN7iQqJXXKEsVwTxicvbRE6efmyFw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Nextop\\Documents\\기민수\\WeaderConsole\\WeaderConsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nextop\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

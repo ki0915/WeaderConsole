@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "22f363d0-6916-4f7c-a65d-446fd1d79b2c": {
+      "ProjectGuid": "22f363d0-6916-4f7c-a65d-446fd1d79b2c",
+      "DisplayName": "WeaderConsole",
+      "ColorIndex": 0
+    },
+    "ce2c0f8d-09a2-4a72-be4c-97cb20c6123f": {
+      "ProjectGuid": "ce2c0f8d-09a2-4a72-be4c-97cb20c6123f",
+      "DisplayName": "ConsoleApp1",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
