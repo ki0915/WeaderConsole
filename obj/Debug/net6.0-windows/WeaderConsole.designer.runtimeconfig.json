@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Nextop\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Nextop\\.nuget\\packages"
+      "C:\\Users\\nextop_C\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\nextop_C\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true

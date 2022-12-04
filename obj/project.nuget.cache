@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UoQgEJLmvysCwwJjLfhdsFVL+Aq8JZURQhQtHCnhpS2CKgid2haxeA9ayxN7iQqJXXKEsVwTxicvbRE6efmyFw==",
+  "dgSpecHash": "R9ZsppFHsiTmuQ4ezxBjytKa/O7RPSxO8icTtIm9zne8X2pD5q4ONbGVR+xHgdBO61aDfAsI++exBZNGnrLWmg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nextop\\Documents\\기민수\\WeaderConsole\\WeaderConsole.csproj",
+  "projectFilePath": "C:\\기민수\\WeaderConsole\\WeaderConsole.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Nextop\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+    "C:\\Users\\nextop_C\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
   ],
   "logs": []
 }
